@@ -1,8 +1,8 @@
 def turn_count(board)
-  counter = 0
+  counter = 1
   board.each do |index|
-    counter += 1
     if index.upcase == "X" or index.upcase == "O"
+      counter += 1
     end
   end
   counter

@@ -3,5 +3,6 @@ def turn_count(board)
   board.each do |index|
     if index.upcase == "X" or index.upcase == "O"
       counter += 1
+    end
   end
 end
